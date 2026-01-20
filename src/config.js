@@ -5,23 +5,23 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Prefijo predeterminado de los comandos.
-export const PREFIX = "/";
+export const PREFIX = "!";
 
 // Emoji del bot (cámbielo si prefiere).
 export const BOT_EMOJI = "🤖";
 
 // Nombre del bot (cámbielo si prefiere).
-export const BOT_NAME = "Takeshi Bot";
+export const BOT_NAME = "ASTA BOT V2";
 
 // LID del bot.
 // Para obtener el LID del bot, use el comando <prefijo>lid respondiendo a un mensaje del número del bot.
 // Cambie <prefijo> por el prefijo del bot (ej: /lid).
-export const BOT_LID = "12345678901234567890@lid";
+export const BOT_LID = "231284676776099@lid";
 
 // LID del dueño del bot.
 // Para obtener el LID del dueño del bot, use el comando <prefijo>meu-lid
 // Cambie <prefijo> por el prefijo del bot (ej: /meu-lid).
-export const OWNER_LID = "12345678901234567890@lid";
+export const OWNER_LID = "155121820418071@lid";
 
 // Directorio de los comandos.
 export const COMMANDS_DIR = path.join(__dirname, "commands");
